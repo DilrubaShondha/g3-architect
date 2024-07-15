@@ -24,6 +24,9 @@
   .dark-4{
     color: #A1A1A1;
   }
+  .grey-text{
+    color:rgb(114,114,114);
+  }
 .normal-font{
     font-size: 3rem;
     font-weight: 700;
@@ -31,6 +34,9 @@
 
 .bg-pink{
     background-color:rgba(255, 144, 14, 0.1);
+}
+.text-primary{
+    color: rgb(255, 144, 14);
 }
 .btn-primary{
     border-radius: 8px;
@@ -92,3 +98,79 @@ font-size: 4rem;
     padding-bottom: 20px;
     display: block;
 }
+
+/*team section */
+.team{
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.team-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin-top: 50px;
+}
+.team-image img{
+    height: 300px;
+    width: 300px;
+    border: 1px dashed grey;
+    border-radius: 8px;
+}
+.team-text{
+    max-width: 500px;
+    height: 300px;
+    margin-left: 100px;
+}
+.team-text h3{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+/*team ends*/
+
+/*features starts here*/
+.features{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.features-text{
+    width: 50%;
+}
+.features-text p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.features-image{
+    width: 50%;
+}
+.features-image img{
+    width: 100%;
+    height: 800px;
+    border: 2px dashed grey;
+}
+.feature-card{
+    border-radius: 8px;
+    width: 80%;
+    padding-left: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+
+}
+#experience-badge{
+    padding: 15px 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+#experience-year{
+    font-size: 3rem;
+    font-weight: 700;
+}
+/*features ends here*/
